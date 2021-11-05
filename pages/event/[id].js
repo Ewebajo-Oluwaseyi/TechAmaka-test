@@ -32,7 +32,7 @@ const Event = () => {
         <h2 className="mb-3 font-bold">
           Time: {event.startTime} - {event.endTime}
         </h2> 
-        <h2 class name="font-bold">Venue: {event.venue}</h2>
+        <h2 className="font-bold">Venue: {event.venue}</h2>
       </div>
       
       <div className="flex flex-col justify-between items-center gap-4">
