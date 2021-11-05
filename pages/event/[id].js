@@ -22,13 +22,14 @@ const Event = () => {
       <div className="grid grid-rows justify-center items-center gap-4 my-5">
       <h1 className="text-4xl tracking-wide">{event.name}</h1>
       <div className="text-center mb-2">
-        <h2 className="mb-3 flex">
-          {event.startDate && <span> Date:
+        <h2 className="mb-3 font-bold">
+           Date:
+          {event.startDate && <span> 
           <span className="ml-2">{event.startDate}</span> <span>{event.endDate && to}</span>
           <span className="ml-1">{event.endDate && event.endDate}</span>
           </span>}
         </h2>
-        <h2 className="mb-3">
+        <h2 className="mb-3 font-bold">
           Time: <p>{event.startTime} - {event.endTime}</p> 
         </h2> 
         <h2>Venue: {event.venue}</h2>
